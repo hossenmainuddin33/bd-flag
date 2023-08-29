@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 1500px;
+}
+.green{
+	width: 800px;
+	height: 420px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 23%;
+	right: 40%;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 3;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40px;
+	right: -105px;
+	transition: 1.5s;
+
+}
+.fb:hover{
+	right: 0%;
+}
+.youtub{
+	width: 150px;
+	position: fixed;
+	top: 150px;
+	right: -105px;
+	transition: 1.5s;
+}
+.youtub:hover{
+	right: 0%;
+}
+.twittle{
+	width: 150px;
+	position: fixed;
+	top: 200px;
+	right: -105px;
+	transition: 1.5s;
+}
+.twittle:hover{
+	right: 0%;
+}
+.linkedin{
+	width: 150px;
+	position: fixed;
+	top: 310px;
+	right: -105px;
+	transition: 1.5s;
+}
+.linkedin:hover{
+	right: 0%;
+}
